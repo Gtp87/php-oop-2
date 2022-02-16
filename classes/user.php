@@ -111,7 +111,7 @@ class User
      *
      * @return  self
      */
-    public function setCard($card)
+    public function setCard(Card $card)
     {
         $this->card = $card;
 
